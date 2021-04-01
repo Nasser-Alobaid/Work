@@ -54,7 +54,7 @@ COLLATE = utf8mb4_0900_ai_ci;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `university`.`students` (
   `Student_id` INT NOT NULL AUTO_INCREMENT,
-  `Student_Firstname` VARCHAR(150) NULL DEFAULT NULL,
+  `Student_Firstname` VARCHAR(100) NULL DEFAULT NULL,
   `Student_Lastname` VARCHAR(225) NOT NULL,
   `Enrollement_status` VARCHAR(225) NOT NULL,
   `Study_year` INT NOT NULL,
