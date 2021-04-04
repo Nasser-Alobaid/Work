@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `university`.`lecturer` (
   `Lecturer_Firstname` VARCHAR(225) NOT NULL,
   `Lecturer_Lastname` VARCHAR(225) NULL DEFAULT NULL,
   `Employee_type` VARCHAR(225) NULL DEFAULT NULL,
-  `Grade` INT NULL DEFAULT NULL,
+  `Grade` VARCHAR(225) NULL DEFAULT NULL,
   `Organization` VARCHAR(225) NULL DEFAULT NULL,
   PRIMARY KEY (`Lecturer_id`))
 ENGINE = InnoDB
